@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the header and nav */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #00f;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    transition: background 0.3s;
+}
+
+.navbar.scrolled {
+    background: #333;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f0f;
+}
+
+/* Styling sections for demo purposes */
+section {
+    padding: 6rem 2rem;
+    height: 100vh;
+}
+
+#section1 {
+    background: #eef;
+}
+
+#section2 {
+    background: #fee;
+}
+
+#section3 {
+    background: #efe;
+}
+
+#section4 {
+    background: #eef;
+}
